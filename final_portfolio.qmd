@@ -19,8 +19,7 @@ number-sections: true
 
 ### Introduction
 
-Oral and Maxillofacial Surgeons (OMS) perform procedures on the mouth, jaw, face, and neck, addressing issues such as tooth extraction, jaw realignment, facial trauma, and tumor removal to improve both function and important for this analysis, aesthetics. Surgeons who maintain effective social media engagement may have better recruitment of new patients and connect with patients beyond the local audience, seeking a specialist. Social media is crucially important to a successful advertisement initiative, especially to reach younger aesthetically motivated audiences.\
-To gauge the utility of social media to Oral and Maxillofacial Surgeons the consulting client surveyed 4621 members of the Association of Maxillofacial-Oral Surgery by email. 420 responses were received, 410 were used in this analysis omitting seven from Canada and three outliers.
+Oral and Maxillofacial Surgeons (OMS) perform procedures on the mouth, jaw, face, and neck, addressing issues such as tooth extraction, jaw realignment, facial trauma, and tumor removal to improve both function and aesthetics, important for this analysis. Surgeons who maintain effective social media engagement may have better recruitment of new patients and connect with patients beyond the local audience, seeking a specialist. Social media is crucially important to a successful advertisement initiative, especially to reach younger aesthetically motivated audiences. To gauge the utility of social media to Oral and Maxillofacial Surgeons the consulting client surveyed 4621 members of the Association of Maxillofacial-Oral Surgery by email. 420 responses were received, 410 were used in this analysis omitting seven from Canada and three outliers.
 
 ### Data and Methods
 
@@ -84,16 +83,13 @@ Modeling factors influencing mosquito populations is a complex task, given the i
 
 ### Introduction
 
-Exome classification is an important facet of genetic counseling. Exomes, sequences reflecting the protein-coding portion of a genome, can be classified as positive, negative, or indeterminate with respect to the exome's association with genetic diseases. Initial classifications may be inaccurate and potentially updated with another round of testing, per the request of a counselor. As is the case across the whole of the medical industry in the United States, racial disparities are very easily demonstrated.\
-The client requested consulting to investigate the consequences of re-factoring racial categories into bins based on representation. Races with larger representation would be classified as 'A', moderately represented as 'B', and those with the least representation would be classified as 'C'. Mixed races would be classified as the combination of the appropriate representation class, 'AB', 'BC', 'AC', and 'ABC'.\
-The analysis aims to compare the outcomes and rates of different features of exome analysis and classification for each mode of racial categorization.
+Exome classification is an important facet of genetic counseling. Exomes, sequences reflecting the protein-coding portion of a genome, can be classified as positive, negative, or indeterminate with respect to the exome's association with genetic diseases. Initial classifications may be inaccurate and potentially updated with another round of testing, per the request of a counselor. As is the case across the whole of the medical industry in the United States, racial disparities are very easily demonstrated. The client requested consulting to investigate the consequences of re-factoring racial categories into bins based on representation. Races with larger representation would be classified as 'A', moderately represented as 'B', and those with the least representation would be classified as 'C'. Mixed races would be classified as the combination of the appropriate representation class, 'AB', 'BC', 'AC', and 'ABC'. The analysis aims to compare the outcomes and rates of different features of exome analysis and classification for each mode of racial categorization.
 
 ### Data and Methods
 
 The client provided data detailing 10,000 original exome reports and 3,000 exome reanalysis reports. Each report includes the patient's race, sex, age, diagnostic indication rate, classification type, and two Boolean variables signaling if the report was a reanalysis and whether the report resulted in a reclassification.
 
-During exploratory data analysis proportional comparison between different racial classifications was conducted, enumerating the proportional changes made by the new system.\
-The new system produces mean reanalysis and reclassification rates across racial categorizations that have less variance.
+During exploratory data analysis proportional comparison between different racial classifications was conducted, enumerating the proportional changes made by the new system. The new system produces mean reanalysis and reclassification rates across racial categorizations that have less variance.
 
 To assess the actual impact of the categorization on those rates logistic and multinomial models using ABC and default race buckets as predictors were used to determine how an exome may be classified, whether an exome is reanalyzed or reclassified, how a reanalysis is initiated, and the evidence used to make a reclassification. Models included sex, age, and diagnostic indication rate as potential confounders.
 
@@ -139,9 +135,7 @@ In conclusion, this text analysis endeavor successfully employed TF-IDF matrices
 
 How do we protect carbon biomass and ecological diversity within the constraints of a real-world budget? Conservation appears to be a simple activity. Find ecological features that should not be harmed, removed, or disturbed, create a policy to protect them, and celebrate; A gross oversimplification. Which ecological features should be preserved? Which ones are most valuable? Environmental valuation is very difficult, what is the cost of a tree? More still, conservation activities incur costs, to the population near the ecological feature and the municipal government tasked with maintaining the effort. In this light, large-scale conservation efforts are not only difficult to plan and coordinate but also expensive.
 
-The continental United States is home to numerous environments and ecological features.\
-Extensive forests have been long-standing ecological retreats and economic resources. The 50 states are disparate enough in size and population that environmental decisions are difficult to enact. The same problem is not as prevalent considering the counties that comprise those states.\
-Counties vary wildly but are easily classified into two groups, urban and rural. Each type of county has a drastically different composition of populations, economic activities, and environmental resources. Assuming an approach to forest conservation that was directed by county governments, this analysis aims to select counties to maximize the protected biomass and minimize the needed costs of implementing a policy protecting the United State's Forests.
+The continental United States is home to numerous environments and ecological features. Extensive forests have been long-standing ecological retreats and economic resources. The 50 states are disparate enough in size and population that environmental decisions are difficult to enact. The same problem is not as prevalent considering the counties that comprise those states. Counties vary wildly but are easily classified into two groups, urban and rural. Each type of county has a drastically different composition of populations, economic activities, and environmental resources. Assuming an approach to forest conservation that was directed by county governments, this analysis aims to select counties to maximize the protected biomass and minimize the needed costs of implementing a policy protecting the United State's Forests.
 
 ### Data and Methods
 
@@ -160,8 +154,7 @@ Besides the cost proxy, the analysis would need to describe different species or
 
 After selecting agreeable model parameters the MARXAN algorithm produces two important tables. Most prominent is the best selection the algorithm made, a binary column detailing which planning units composed the cheapest solution that met the conservation goal. Without such a proximate cost estimation a designated budget seemed frivolous and the MARXAN algorithm was run exclusively to meet the conservation goal with the minimum cost. Beyond the best selection, MARXAN elaborates on the selection process by compiling the selection frequency of each planning unit. This result allows for the inspection of which planning units MARXAN most preferred and which planning units were less distinctly cost-effective.
 
-The results detail areas with forests that may be cheaper to conserve, namely in the Pacific Northwest, the central range of the Rocky Mountains, and numerous regions on the eastern side of the United States.\
-An important caveat to this result, the variance of size and frequency of counties East-West in the United States do not allow MARXAN the same flexibility in protecting the forests therein.
+The results detail areas with forests that may be cheaper to conserve, namely in the Pacific Northwest, the central range of the Rocky Mountains, and numerous regions on the eastern side of the United States. An important caveat to this result, the variance of size and frequency of counties East-West in the United States do not allow MARXAN the same flexibility in protecting the forests therein.
 
 ### Conclusion
 
